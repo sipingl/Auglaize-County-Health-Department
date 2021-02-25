@@ -1,0 +1,534 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    width: 960px; 
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+h1 {
+  color: rgb(255,255,255);
+  font-family: serif;
+  font-size: 30px;
+  line-height: 2.5;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h2{
+  color:rgb(255,255,255);
+  font-family: Arial;
+  font-size: 30px;
+  word-spacing: 5px;
+  text-transform:capitalize;
+  text-decoration:none;
+  font-weight: 100;
+  padding-bottom: 30px;
+}
+
+h3{
+    font-family: Arial;
+    font-size: 16px;
+    color: rgb(255,255,255);
+}
+
+h4{
+    font-family:Times;
+    font size: 12px;
+    color: rgb(0,0,0);
+}
+
+p {
+    font-family: Arial;
+    font-size: 16px;
+}
+
+img{
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+header{
+}
+
+nav{
+    background-color: rgb(0,124,181);
+    padding-left: 75px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 10px 2px rgb(180,180,180);
+    margin-bottom: -9px;
+}
+
+nav li{
+    display:inline;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: Arial;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+nav a:link {
+    color:rgb(255,255,255);
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: rgb(255,255,255);
+}
+
+nav a:hover {
+    color:rgb(0,124,181);
+    background-color:rgb(225,225,225);
+    padding-top: 10px;
+    padding-bottom: 11px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav a:active {
+    background-color:rgb(156,166,139);
+}
+
+main {
+    overflow: hidden;
+    padding-top: 8px;
+    padding-bottom: 20px;
+}
+
+#home_img{
+    width:960px;
+    height:300px;
+    background-image: url(images/aug-co-health-department-copy.jpg);
+    background-size: cover;
+}
+
+#home_img h1{
+    background-color: rgb(59,94,110,0.6);
+    padding-top:160px;
+    padding-left: 30px;
+}
+
+#infographic{
+    width:960px;
+    background-color:rgb(95,103,85);
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#infographic h2{
+    font-family: "arial black";
+    color:rgb(156,166,139);
+    text-align: center;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    line-height: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.highlight{
+    color:rgb(255,255,255);
+    font-weight: bolder;
+}
+
+.bigger_highlight{
+    color:rgb(255,255,255);
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#bigger_resources{
+    background-color: rgb(233,233,233);
+    overflow:hidden; 
+}
+
+#resources{
+    width: 190px;
+    border-bottom: 3px solid rgb(95,103,85);
+    margin-left: 380px;
+}
+
+#resources h2{
+    text-transform: uppercase;
+    color:rgb(0,0,0);
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight:bolder;
+    letter-spacing: 0.50px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.explanation{
+    font-size: 15px;
+    color: rgb(180,180,180);
+    padding-bottom: 20px; 
+    text-transform: capitalize;
+}
+
+.subtitle{
+    font-size: 15px;
+    color: rgb(130,130,130);
+    padding-bottom: 15px;
+}
+
+#information{
+    overflow:hidden;
+    background-color: rgb(233,233,233);
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#information h4{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+#information_left{
+    background-color: rgb(233,233,233);
+    width:400px;
+    float:left;
+    margin-left: 80px; 
+    padding-bottom: 40px;
+}
+
+#health_division{
+    background-color: rgb(255,255,255);
+    width:185px;
+    float:left;
+    text-align: center;
+    border: 2px solid rgb(0,124,181);
+    border-radius: 2px;
+    padding-bottom: 10px;
+}
+
+#health_division #read{
+    margin-top: 29px;
+}
+
+#nursing_division{
+    background-color: rgb(255,255,255);
+    width:185px;
+    float:right; 
+    text-align: center;
+    border: 2px solid rgb(0,124,181);
+    border-radius: 2px;
+    padding-bottom: 10px;
+    margin-right: 6px;
+}
+
+#nursing_division .subtitle{
+    padding-top: 17px;
+}
+
+#nursing_division #read{
+    margin-top:29px;
+}
+
+#information_right{
+    background-color: rgb(233,233,233);
+    width:400px;
+    float:right;
+    margin-right: 80px;  
+    padding-bottom: 40px;
+}
+
+#wic{
+    background-color: rgb(255,255,255);
+    width:185px;
+    float:left;
+    text-align: center;
+    border: 2px solid rgb(0,124,181);
+    border-radius: 2px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
+
+#wic .subtitle{
+    padding-top: 19px;
+}
+
+#stats{
+    background-color: rgb(255,255,255);
+    width:185px;
+    float:right;  
+    text-align: center;
+    border: 2px solid rgb(0,124,181);
+    border-radius: 2px;
+    padding-bottom: 11px;
+}
+
+#stats .subtitle{
+    padding-top:20px;
+}
+
+#stats #read{
+    margin-top:42px;
+}
+
+#read{
+    background-color:rgb(95,103,85);
+    width: 80px;
+    font-size: 12px;
+    text-align: center;
+    color: rgb(255,255,255);
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 30px;
+}
+
+#slogan{
+    widows: 960px;
+    clear:both;
+    overflow: hidden;
+    display:block;
+    margin-bottom: -5px;
+}
+
+#fact{
+    width:960px;
+    background-color: rgb(95,103,85);
+    font-family: "arial black";
+    text-align: center;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    clear: both;
+    overflow: hidden;
+}
+
+#fact h2{
+    font-size: 60px;
+    line-height: 10px;
+    font-weight: bolder;
+}
+
+#fact .explanation{
+    font-size: 20px;
+    margin-bottom:30px;
+} 
+
+#fact_left{
+    width: 620px;
+    float: left;
+    margin-left:15px;
+}
+
+#caregiver{
+    float:left;
+    width:310px;
+    margin-right: 10px;
+}
+
+#report{
+    float:right;
+    width:300px;
+}
+
+#fact_right{
+    width: 310px;
+    float: right;
+    margin-right:15px;
+}
+
+#fact p{
+    color:rgb(156,166,139);
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    line-height: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.fact_highlight{
+    color: rgb(255,255,255);
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+#featured_img {
+    width: 600px;
+    background-color: rgb(255,255,255);
+    float:left;
+    display:block;
+    padding-top: 55px;
+    clear: both;
+    overflow: hidden;
+}
+
+#featured_text{
+    background-color: rgb(95,149,173);
+    width: 360px;
+    float:right;
+    padding-top: 35px;
+    color:rgb(250,250,250);
+    text-align: center;
+}
+
+.featured_spacing{
+    padding-left: 30px;
+    padding-right: 150px;
+}
+
+#featured_text h2{
+    font-size: 8px;
+    letter-spacing: .10em;
+    text-transform: uppercase;
+    font-family: Arial;
+    font-weight: 100;
+    padding-bottom: 20px;
+    margin-right: 98px;
+}
+
+#featured_text h3{
+    width: 300px;
+    color:rgb(255,255,255);
+    font-size: 30px;
+    font-family: Times;
+    font-weight: bolder;
+    padding-bottom: 15px;
+}
+
+#featured_text p{
+    width: 270px;
+    font-size:13px;
+    font-weight: 100;
+    line-height: 1.5em;
+    padding-bottom: 11.5px;
+    margin-left: 15px;
+}
+
+.featured_highlight{
+    font-family: "arial black";
+    color:rgb(0,66,97);
+    font-weight: bolder;
+}
+
+#more{
+    text-align: center;
+    width:90px;
+    font-family: Arial;
+    font-weight: 100;
+    border: 1px solid rgb(255,255,255);
+    font-size:8px;
+    letter-spacing: .10em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    margin-left: 105px;
+    border-radius: 2px;
+}
+
+.graphic{
+    background-color: rgb(59,94,110);
+}
+
+#featured_text img{
+    border-right:1px solid rgb(95,149,173);
+    border-left: 1px solid rgb(95,149,173);
+    width: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#how_do_i{
+    background-color: rgb(95,149,173);
+    width: 360px;
+    float:left;
+    padding-top: 35px;
+    color:rgb(250,250,250);
+    text-align: center;
+    clear: both;
+    overflow: hidden;
+}
+
+#how_do_i h3{
+    width: 300px;
+    color:rgb(255,255,255);
+    font-size: 30px;
+    font-family: Times;
+    font-weight: bolder;
+    padding-bottom: 15px;
+    margin-left: -15px;
+}
+
+#how_do_i h2{
+    font-size: 8px;
+    letter-spacing: .10em;
+    text-transform: uppercase;
+    font-family: Arial;
+    font-weight: 100;
+    padding-bottom: 20px;
+    margin-right: 180px;
+}
+
+#how_do_i_img{
+    width: 600px;
+    float: right;
+    display:block;
+}
+
+.how li{
+    color: rgb(0,66,97);
+    list-style:circle;
+    font-family: "arial black";
+    margin-bottom: 15px;
+    width: 270px;
+    font-size:13px;
+    font-weight: 100;
+    line-height: 1.5em;
+    padding-bottom: 11.5px;
+    margin-left: 40px;
+}
+
+li a:link {
+    color:rgb(255,255,255);
+    text-decoration: none;
+}
+
+li a:visited {
+    color: rgb(255,255,255);
+}
+
+li a:hover {    
+    color:rgb(95,103,85);
+    padding-top: 10px;
+    padding-bottom: 11px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+li a:active {
+    background-color:rgb(156,166,139);
+}
+
+#how_do_i #more{
+    margin-left: 130px;
+}
+
+footer {
+    clear:both;
+    margin-top: -34px;
+}
